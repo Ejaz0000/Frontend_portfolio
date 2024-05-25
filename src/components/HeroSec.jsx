@@ -12,7 +12,7 @@ import { Download} from 'lucide-react'
 const HeroSec = () => {
   return (
     <div>
-    <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-[100px] lg:gap-[300px] my-[120px] lg:my-[200px]">
+    <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-[100px] lg:gap-[200px] my-[120px] lg:my-[200px]">
         <div className="flex justify-start items-center">
             <div className="mt-6 lg:block"><img className='h-[100px] lg:h-full w-8 lg:w-full' src={arrow1} alt='arrow1'/></div>
             <div>
