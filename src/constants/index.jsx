@@ -22,22 +22,27 @@ export const lang = [
     {
       title: "HTML",
       image: html,
+      percent: 85,
     },
     {
         title: "CSS",
         image: css,
+        percent: 80,
     },
     {
         title: "JavaScript",
         image: js,
+        percent: 80,
     },
     {
         title: "PHP",
         image: php,
+        percent: 60,
     },
     {
         title: "JAVA",
         image: java,
+        percent: 85,
     },
     
   ];
@@ -46,22 +51,27 @@ export const lang = [
     {
       title: "REACT",
       image: react,
+      percent: 75,
     },
     {
         title: "NEXT.js",
         image: next,
+        percent: 80,
     },
     {
         title: "TAILWIND",
         image: tailwind,
+        percent: 75,
     },
     {
         title: "LARAVEL",
         image: laravel,
+        percent: 45,
     },
     {
         title: "FLUTTER",
         image: flutter,
+        percent: 80,
     },
     
   ];
@@ -70,14 +80,17 @@ export const lang = [
     {
       title: "MYSQL",
       image: mysql,
+      percent: 70,
     },
     {
         title: "MONGO DB",
         image: mogo,
+        percent: 75,
     },
     {
         title: "FIGMA",
         image: figma,
+        percent: 75,
     },
     
   ];

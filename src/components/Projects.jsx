@@ -7,7 +7,7 @@ const Projects = ({proj,index}) => {
     console.log(index)
   return (
     <div className='my-[200px] px-[10px] lg:px-[200px]'>
-        <div className={`flex ${index % 2 === 0 ? 'flex-col lg:flex-row' : 'flex-col lg:flex-row-reverse'} items-center lg:justify-start my-10 gap-24`} onFocus={()=>setFocus(true)} onMouseEnter={()=>setFocus(true)} onMouseLeave={()=>setFocus(false)}>
+        <div className={`flex ${index % 2 === 0 ? 'flex-col lg:flex-row' : 'flex-col lg:flex-row-reverse'} items-center lg:justify-start my-10 gap-24`} onMouseEnter={()=>setFocus(true)} onMouseLeave={()=>setFocus(false)} onTouchStart={()=>setFocus(true)}>
 
             <div className="relative">
             <motion.div

@@ -6,6 +6,8 @@ import { motion } from "framer-motion"
 import { lang } from '../constants'
 import { Framework } from '../constants'
 import { tools } from '../constants'
+import Skill from './skill'
+import { Percent } from 'lucide-react'
 
 
 const Skills = () => {
@@ -27,30 +29,30 @@ const Skills = () => {
       <img className="w-[50px] lg:w-[70px]" src={arrow2} alt='me'/>
       </div>
     </div>
-     <div className='my-[100px]'>
-    <div className="mt-[50px] flex flex-wrap lg:flex-nowrap px-[10px] lg:px-[150px] justify-center gap-2 lg:justify-between">
+     <div className='my-[100px] w-[98%] lg:w-[70%] mx-auto'>
+
+    
+    
+    <div className="mt-[50px] flex flex-wrap justify-center lg:justify-start  gap-4 lg:gap-16">
      {lang.map((l,index)=>(
-        <div className='flex flex-col items-center justify-center gap-2 text-slate-400'>
-          {l.image}
-          <p className="font-semibold text-xl">{l.title}</p>
+        <div key={index}>
+          <Skill title={l.title} percent={l.percent}/>
         </div>
      ))}
     </div>
 
-    <div className="mt-[50px] flex flex-wrap lg:flex-nowrap px-[10px] lg:px-[150px] justify-center gap-2 lg:justify-between">
+    <div className="mt-[50px] flex flex-wrap justify-center lg:justify-start gap-4 lg:gap-16">
      {Framework.map((f,index)=>(
-        <div className='flex flex-col items-center justify-between gap-3 h-[130px] mb-10 text-slate-400'>
-          {f.image}
-          <p className="font-semibold text-xl">{f.title}</p>
+        <div key={index}>
+          <Skill title={f.title} percent={f.percent}/>
         </div>
      ))}
     </div>
 
-    <div className="mt-[50px] flex flex-wrap lg:flex-nowrap px-[10px] lg:px-[150px] justify-center gap-2 lg:gap-20">
+    <div className="mt-[50px] flex flex-wrap justify-center lg:justify-start gap-4 lg:gap-16">
      {tools.map((t,index)=>(
-        <div className='flex flex-col items-center justify-center gap-2 text-slate-400'>
-          {t.image}
-          <p className="font-semibold text-xl">{t.title}</p>
+        <div key={index}>
+          <Skill title={t.title} percent={t.percent}/>
         </div>
      ))}
     </div>
