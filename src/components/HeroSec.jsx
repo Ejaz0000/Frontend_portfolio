@@ -6,6 +6,7 @@ import arrow2 from '../assets/arrow02.png'
 import proj from '../assets/projects.png'
 
 import { Download} from 'lucide-react'
+import CV from '../assets/Ejaz Ahmed Resume.pdf'
 
 
 
@@ -19,7 +20,7 @@ const HeroSec = () => {
             <h1 className="text-[#EEEEEE] text-4xl lg:text-8xl font-bold">EJAZ AHMED</h1>
             <h1 className="text-[#EEEEEE] text-lg lg:text-4xl"><span className="text-[#00ADB5] text-2xl lg:text-6xl font-bold">FRONT-END</span> DEVELOPER</h1>
             <div className="mt-10 flex justify-start">
-            <a href="../assets/Ejaz Ahmed Resume.pdf" className="bg-[#333841] py-2 lg:py-3 px-3 lg:px-4 text-[18px] lg:text-[22px] font-bold rounded-xl flex flex-shrink-1 items-center gap-2">
+            <a href={CV} download="Resume" className="bg-[#333841] py-2 lg:py-3 px-3 lg:px-4 text-[18px] lg:text-[22px] font-bold rounded-xl flex flex-shrink-1 items-center gap-2">
               <span>Download CV</span> 
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
               </a>
@@ -78,3 +79,7 @@ const HeroSec = () => {
 }
 
 export default HeroSec
+
+
+
+ 

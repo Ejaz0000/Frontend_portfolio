@@ -1,6 +1,8 @@
 import mongo from "../assets/mongodb.png"
 import s1 from "../assets/S1.png"
 import s2 from "../assets/S2.png"
+import s3 from "../assets/S3.png"
+import s4 from "../assets/S4.png"
 
 
  
@@ -113,6 +115,31 @@ export const lang = [
         description: "A landing page with mordern design for a AI development assistant tool with number of section animation for your to interact with.",
         visit : "https://ai-dev-six.vercel.app/",
         code: "https://github.com/Ejaz0000/AI-dev.git",
+        tools: [
+            "React",
+            "Tailwindcss",
+            "Framer motion",
+          ],
+      },
+
+      {
+        title: "Flavorscape",
+        image: s3,
+        description: "A landing page with mordern design for a fancy restaurant with number of section animation for your to interact with.",
+        visit : "https://restaurant-page-smoky.vercel.app/",
+        code: "https://github.com/Ejaz0000/restaurant_page.git",
+        tools: [
+            "React",
+            "CSS",
+          ],
+      },
+    
+      {
+        title: "Food Delivery",
+        image: s4,
+        description: "A landing page with mordern design for a Food Delivery company with number of section animation for your to interact with.",
+        visit : "https://food-delivery-murex-two.vercel.app/",
+        code: "https://github.com/Ejaz0000/Food_Delivery-.git",
         tools: [
             "React",
             "Tailwindcss",
