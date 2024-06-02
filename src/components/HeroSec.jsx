@@ -18,7 +18,7 @@ const HeroSec = () => {
             <div className="mt-6 lg:block"><img className='h-[100px] lg:h-full w-8 lg:w-full' src={arrow1} alt='arrow1'/></div>
             <div>
             <h1 className="text-[#EEEEEE] text-4xl lg:text-8xl font-bold">EJAZ AHMED</h1>
-            <h1 className="text-[#EEEEEE] text-lg lg:text-4xl"><span className="text-[#00ADB5] text-2xl lg:text-6xl font-bold">FRONT-END</span> DEVELOPER</h1>
+            <h1 className="text-[#EEEEEE] text-lg lg:text-4xl"><span className="text-[#00ADB5] text-2xl lg:text-6xl font-bold">SOFTWARE</span> DEVELOPER</h1>
             <div className="mt-10 flex justify-start">
             <a href={CV} download="Resume" className="bg-[#333841] py-2 lg:py-3 px-3 lg:px-4 text-[18px] lg:text-[22px] font-bold rounded-xl flex flex-shrink-1 items-center gap-2">
               <span>Download CV</span> 
