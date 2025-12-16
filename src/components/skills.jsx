@@ -12,7 +12,7 @@ import { Percent } from 'lucide-react'
 
 const Skills = () => {
   return (
-    <div className="mt-[180px]">
+    <div className="container mx-auto px-4 lg:px-0 mt-[180px]">
      <div className="flex justify-center gap-2">
       <motion.div
       animate={{ opacity: [1, 0.3, 1] }}

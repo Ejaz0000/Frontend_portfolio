@@ -1,7 +1,9 @@
 
 import React, { useRef } from 'react'
-import contact from '../assets/contact.png'
+import contact from '../assets/contact-arrow.png'
 import emailjs from '@emailjs/browser';
+import { motion } from "framer-motion"
+
 
 
 const Contact = () => {
@@ -25,9 +27,24 @@ const Contact = () => {
   };
 
   return (
-    <div className='flex flex-col lg:flex-row justify-center items-center  lg:gap-[200px] mt-[250px] mb-[200px]'>
+    <div className='container mx-auto px-4 lg:px-0'>
+      <div className='flex flex-col lg:flex-row justify-center items-center  lg:gap-[200px] mt-[250px] mb-[200px]'>
      <div className='hidden lg:block'>
-     <img className="w-[350px]" src={contact} alt='contact'/>
+     <div>
+      <motion.div
+      className='-rotate-12'
+      animate={{ opacity: [1, 0.3, 1] }}
+      transition={{
+        duration: 2, 
+        ease: "easeInOut",
+        repeat: Infinity,
+        repeatType: "loop"
+      }}
+      >
+      <span className="shadows-into-light-regular text-4xl lg:text-8xl font-bold mb-4">Contact Me </span>
+      </motion.div>
+      <img className="w-[350px]" src={contact} alt='contact'/>
+     </div>
 
      </div>
      <div>
@@ -61,6 +78,7 @@ const Contact = () => {
         </form>
        {/*  */}
      </div>
+    </div>
     </div>
   )
 }

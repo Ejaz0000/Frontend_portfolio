@@ -66,9 +66,9 @@ export const lang = [
         percent: 75,
     },
     {
-        title: "LARAVEL",
+        title: "Django",
         image: laravel,
-        percent: 45,
+        percent: 85,
     },
     {
         title: "FLUTTER",

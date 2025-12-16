@@ -2,8 +2,6 @@ import React from 'react'
 import { motion } from "framer-motion"
 import me from '../assets/me.png'
 import arrow1 from '../assets/arrow01.png'
-import arrow2 from '../assets/arrow02.png'
-import proj from '../assets/projects.png'
 
 import { Download} from 'lucide-react'
 import CV from '../assets/Ejaz Ahmed Resume.pdf'
@@ -12,13 +10,13 @@ import CV from '../assets/Ejaz Ahmed Resume.pdf'
 
 const HeroSec = () => {
   return (
-    <div>
+    <div className='container mx-auto px-4 lg:px-0'>
     <div className="flex flex-col-reverse lg:flex-row justify-center items-center gap-[100px] lg:gap-[200px] my-[120px] lg:my-[200px]">
         <div className="flex justify-start items-center">
             <div className="mt-6 lg:block"><img className='h-[100px] lg:h-full w-8 lg:w-full' src={arrow1} alt='arrow1'/></div>
             <div>
             <h1 className="text-[#EEEEEE] text-4xl lg:text-8xl font-bold">EJAZ AHMED</h1>
-            <h1 className="text-[#EEEEEE] text-lg lg:text-4xl"><span className="text-[#00ADB5] text-2xl lg:text-6xl font-bold">SOFTWARE</span> DEVELOPER</h1>
+            <h1 className="text-[#EEEEEE] text-lg lg:text-4xl"><span className="text-[#00ADB5] text-2xl lg:text-6xl font-bold">SOFTWARE</span> Engineer</h1>
             <div className="mt-10 flex justify-start">
             <a href={CV} download="Resume" className="bg-[#333841] py-2 lg:py-3 px-3 lg:px-4 text-[18px] lg:text-[22px] font-bold rounded-xl flex flex-shrink-1 items-center gap-2">
               <span>Download CV</span> 
@@ -58,22 +56,7 @@ const HeroSec = () => {
 
         </div>
     </div>
-    <div className="flex justify-center gap-2">
-      <motion.div
-      animate={{ opacity: [1, 0.3, 1] }}
-      transition={{
-        duration: 2, 
-        ease: "easeInOut",
-        repeat: Infinity,
-        repeatType: "loop"
-      }}
-      >
-      <img className="w-[150px] lg:w-[200px]" src={proj} alt='me'/>
-      </motion.div>
-      <div className="mt-4">
-      <img className="w-[50px] lg:w-[70px]" src={arrow2} alt='me'/>
-      </div>
-    </div>
+  
     </div>
   )
 }
