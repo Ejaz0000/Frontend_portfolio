@@ -8,7 +8,7 @@ const Skill = ({title,percent}) => {
     var wid = percent.toString() + "%";
   return (
     <>
-    <div className='w-[160px] lg:w-[250px]'>
+    <div className='w-full max-w-[160px] lg:max-w-[250px]'>
         <div className='flex w-full justify-between text-[#EEEEEE] text-md lg:text-lg font-medium'>
           <p>
             {title}

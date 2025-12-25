@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const AboutSection = () => {
   return (
-    <div className='container mx-auto px-4 lg:px-0'>
+    <div className='container mx-auto px-4'>
     <div className='flex flex-col lg:flex-row justify-center   lg:gap-[200px] mt-[250px] mb-[200px]'>
      <div className='hidden lg:block'>
      <div>
@@ -24,7 +24,7 @@ const AboutSection = () => {
      </div>
 
      </div>
-     <div className='max-w-[800px] text-justify text-base lg:text-2xl text-[#CCCCCC] flex flex-col gap-6 px-3'>
+     <div className='max-w-[800px] text-justify text-base lg:text-2xl text-[#CCCCCC] flex flex-col gap-6 p-6 border-8 border-[#00ADB5] rounded-xl'>
         <span className="shadows-into-light-regular text-4xl font-bold mb-4 lg:hidden">About Me </span>
         <p>
             I am a <strong>dedicated software engineer</strong> with a strong passion for building 
