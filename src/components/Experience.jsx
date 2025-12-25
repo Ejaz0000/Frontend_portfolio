@@ -29,7 +29,7 @@ const Experience = () => {
     },
   ]
   return (
-    <div className="container mx-auto px-4 lg:px-16 pt-[100px] pb-[150px]">
+    <section id="experience" className="container mx-auto px-4 lg:px-16 pt-[100px] pb-[150px]">
       <div className="mb-16">
         <motion.div
           className="-rotate-12 max-w-fit"
@@ -71,7 +71,7 @@ const Experience = () => {
       
 
 
-    </div>
+    </section>
   );
 };
 

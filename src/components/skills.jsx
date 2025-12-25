@@ -57,7 +57,7 @@ const Skills = () => {
   }
 ]
   return (
-    <div className="container mx-auto px-4 lg:px-16 mt-[180px]">
+    <section id="skills" className="container mx-auto px-4 lg:px-16 mt-[180px]">
       <div className="mb-16">
         <motion.div
           className="-rotate-12 max-w-fit"
@@ -145,7 +145,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

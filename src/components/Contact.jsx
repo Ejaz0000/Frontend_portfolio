@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='container mx-auto px-4 lg:px-0'>
+    <section id="contact" className='container mx-auto px-4 lg:px-0'>
       <div className='flex flex-col lg:flex-row justify-center items-center  lg:gap-[200px] mt-[250px] mb-[200px]'>
      <div className='hidden lg:block'>
      <div>
@@ -79,7 +79,7 @@ const Contact = () => {
        {/*  */}
      </div>
     </div>
-    </div>
+    </section>
   )
 }
 

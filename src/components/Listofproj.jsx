@@ -8,7 +8,7 @@ import proj from '../assets/projects.png'
 
 export const Listofproj = () => {
   return (
-    <div className="container mx-auto px-4 lg:px-0 mt-[100px] ">  
+    <section id='projects' className="container mx-auto px-4 lg:px-0 mt-[100px] ">  
 
       <div className="flex justify-center gap-2">
       <motion.div
@@ -35,7 +35,7 @@ export const Listofproj = () => {
             </div>
         ))}
           
-    </div>
+    </section>
   )
 }
 

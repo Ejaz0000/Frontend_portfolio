@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const AboutSection = () => {
   return (
-    <div className='container mx-auto px-4'>
+    <section id='about' className='container mx-auto px-4'>
     <div className='flex flex-col lg:flex-row justify-center   lg:gap-[200px] mt-[250px] mb-[200px]'>
      <div className='hidden lg:block'>
      <div>
@@ -47,7 +47,7 @@ const AboutSection = () => {
 
      </div>
     </div>
-    </div>
+    </section>
   )
 }
 
